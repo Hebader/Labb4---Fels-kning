@@ -9,7 +9,7 @@
 
             if (number > 3)
             {
-                Console.WriteLine("Talet är större än tre"); // detta ";" tecken saknades.
+                Console.WriteLine("Talet är större än tre"); // ett semilkolon saknades.
             }
 
             else if(number < 3) //la till mellanslag mellan else och if.
@@ -19,7 +19,7 @@
 
             //case 2
 
-            for (int i = 1; i <= 100; i++) // la till = brevid 100, då skrivs 1 till 100 ut.
+            for (int i = 1; i <= 100; i++) // la till "=" efter "<", då skrivs 1 till 100 ut.
             {
                 Console.WriteLine(i);
             }
@@ -53,7 +53,7 @@
             switch (o)
             {
                 case 1:
-                    break;
+                    break; //la till break;
                 
                 case 2:
                     Console.WriteLine("Two");
@@ -66,7 +66,7 @@
             //case 6
             int h = 10;
 
-            if (h = 5)
+            if (h == 5) //la till det andra "=" tecknet.
             {
                 Console.WriteLine("h är 5");
             }
