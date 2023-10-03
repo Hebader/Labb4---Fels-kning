@@ -40,10 +40,10 @@
             {
                 for (int j = 1; j <= p; j++)
                 {
-                    Console.Write(""); //la till "" inom paranteserna 
+                    Console.Write(j); //Skriver ut värdet "j".
                 }
 
-                Console.WriteLine();
+                Console.WriteLine(p); //Skriver ut värdet "p".
                 p++;
             }
 
